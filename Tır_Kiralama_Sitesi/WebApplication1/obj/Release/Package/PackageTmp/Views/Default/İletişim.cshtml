@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "İletişim";
+    Layout = "~/Views/Shared/_testlayout.cshtml";
+}
+<div class="contact">
+    <div class="wrap">
+        <div class="contact-top">
+            <h3>Contact Information</h3>
+            <p> insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nu</p>
+        </div>
+        <div class="form">
+            <form class="cmxform" id="contactForm" method="post">
+                <div>
+                    <input type="text" class="textbox" value="Name:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                </div>
+                <div>
+                    <input type="text" class="textbox" value="Email:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                </div>
+                <div>
+                    <input type="text" class="textbox" value="Phone:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
+                </div>
+                <div>
+                    <p><span class="read">Submit</span></p>
+                </div>
+            </form>
+        </div>
+        <div class="form1">
+            <div>
+                <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="contact-bottom">
+            <div class="contact-left">
+                <div class="contact-add">
+                    <h3>Address One</h3>
+                    <p> insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                    <p>Telephone:1-22-5555</p>
+                    <p>Fax:1-22-5555</p>
+                    <p>Email:<a href="mailto:signup@gmail.com">signup@mail.com</a></p>
+                </div>
+                <div class="contact-add">
+                    <h3>Address Two</h3>
+                    <p>Telephone:1-22-5555</p>
+                    <p>Fax:1-22-5555</p>
+                    <p>Email:<a href="mailto:signup@gmail.com">signup@mail.com</a></p>
+                </div>
+            </div>
+            <div class="contact-map">
+                <iframe width="580" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.app.goo.gl/MYSMQXVNA9MzXBjN8"></iframe><br><small><a href="https://maps.app.goo.gl/MYSMQXVNA9MzXBjN8" style="color: #555;text-align:left">View Larger Map</a></small>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
